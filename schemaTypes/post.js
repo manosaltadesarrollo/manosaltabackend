@@ -46,7 +46,7 @@ export default {
     },
     {
       name: 'foto',
-      title: 'Foto',
+      title: 'Foto (la foto debe ser vertical)',
       type: 'image',
       options: {
         hotspot: true
