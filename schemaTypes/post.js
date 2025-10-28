@@ -19,16 +19,11 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      name: 'subtitulo',
-      title: 'Subtítulo',
-      type: 'string'
-    },
-    {
       name: 'descripcionBreve',
       title: 'Descripción breve',
       type: 'text',
       description: 'Resumen corto de la publicación',
-      validation: Rule => Rule.required().max(200)
+      validation: Rule => Rule.required().max(500)
     },
     {
       name: 'descripcionCompleta',
