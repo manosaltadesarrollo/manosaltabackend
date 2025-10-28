@@ -17,10 +17,3 @@ export default defineConfig({
   },
 })
 
-import assignNumeroPublicacion from './actions/incrementAction'
-
-export const documentActions = (prev, context) => {
-  return (prev.type === 'post') 
-    ? [...prev, assignNumeroPublicacion] 
-    : prev
-}

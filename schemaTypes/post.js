@@ -5,13 +5,7 @@ export default {
   title: 'Publicación',
   type: 'document',
   fields: [
-    {
-      name: 'numeroPublicacion',
-      title: 'Número de publicación',
-      type: 'number',
-      readOnly: true, // asignado automáticamente
-      description: 'Número incremental asignado automáticamente al crear la publicación'
-    },
+    
     {
       name: 'fecha',
       title: 'Fecha de publicación',
