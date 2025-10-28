@@ -69,7 +69,7 @@ export default {
     prepare(selection) {
       const { title, subtitle, media, estado} = selection
       return {
-        title: `#${title} (${estado})`,
+        title: `${title} (${estado})`,
         subtitle: subtitle,
         media: media
       }
