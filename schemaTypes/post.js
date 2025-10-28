@@ -65,12 +65,11 @@ export default {
       subtitle: 'subtitulo',
       media: 'foto',
       estado: 'estado',
-      numero: 'numeroPublicacion'
     },
     prepare(selection) {
-      const { title, subtitle, media, estado, numero } = selection
+      const { title, subtitle, media, estado} = selection
       return {
-        title: `#${numero} - ${title} (${estado})`,
+        title: `#${title} (${estado})`,
         subtitle: subtitle,
         media: media
       }
